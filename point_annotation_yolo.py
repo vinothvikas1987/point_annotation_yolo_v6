@@ -43,7 +43,7 @@ model.train(data=data_path,
             scheduler=scheduler,
             warmup_epochs=warmup_epochs)
 
-model.train(data='/content/drive/MyDrive/Classroom/data/data.yml',epochs = 300)
+model.train(data='/content/drive/MyDrive/data.yml',epochs = 300)
 
-\ %cd /content/drive/MyDrive/Classroom/data
+
 !yolo task = detect mode = train model = yolov8s.pt data=data.yaml epochs = 75 plots = True
